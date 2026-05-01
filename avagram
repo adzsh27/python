@@ -1,0 +1,10 @@
+a= input("enter the string1:")
+b=input("enter the string2:")
+a1="".join(i for i in a if i.salnum())
+b1="".join(i for i in b if i.salnum())
+a2=stored(a1)
+b2=stored(b1)
+if a2==b2:
+    print("AVAGRAM")
+else:
+    print("no") 
