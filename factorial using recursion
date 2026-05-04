@@ -1,0 +1,8 @@
+def days(a):
+    if a==1:
+        return 1
+    else:
+        return a*days(a-1)
+a=int(input("Enter the number:"))
+res=days(a)
+print ("the factorial of number is:",res)
